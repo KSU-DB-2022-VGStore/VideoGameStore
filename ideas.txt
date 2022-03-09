@@ -1,0 +1,14 @@
+Project Idea: Managing Data for a video game store
+
+Video Games/Stock: name, console, genre, publisher, id, price, release year, ESRB
+Merchants: id, name, (the publishers)
+Employees: Emp_ID, Name, role, salary
+Customers/Members for game awards: Name, CustomerID, has a discount available, etc
+Orders: customerID, employeeID, orderID, quantity, price, status
+
+Video game store name: ?
+Location? Assets? (I.e., how big is the store)
+
+DB Project - Task 1
+
+Video Game Store Management
