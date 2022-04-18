@@ -1,0 +1,25 @@
+Strong entity sets: (First is primary key)
+video_game(game_id, game_price, console, name, genre, esrb_rating, stock_amount)
+publisher(publisher_id, publisher_name)
+order(order_id, order_price, discount, status)
+customer(customer_id, customer_name)
+employee(employee_id, employee_name, role, salary)
+
+Relation Sets:
+pub_game(game_id, publisher_id)
+employ_order(order_id, game_id)
+cust_employ(customer_id, employee_id)
+cust_order(order_id, customer_id)
+
+Combination of Schemas
+video_game(game_id, game_price, console, name, genre, esrb_rating, stock_amount, publisher_id)
+order(order_id, order_price, discount, status, customer_id, employee_id)
+customer(customer_id, customer_name, employee_id)
+
+
+-----
+video_game(game_id, game_price, console, name, genre, esrb_rating, stock_amount, publisher_id)
+publisher(publisher_id, publisher_name)
+order(order_id, order_price, discount, status, customer_id, employee_id)
+customer(customer_id, customer_name, employee_id)
+employee(employee_id, employee_name, role, salary)
