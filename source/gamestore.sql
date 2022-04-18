@@ -2,51 +2,51 @@ create database korby_store;
 
  create table game(
     game_id char(5) not null,
-    game_name varchar(30) not null,
-    console varchar(30),
-    price decimal(4,2),
-    publisher varchar(30),
-    release_year year,
-    esrb varchar(10),
+    name varchar(20) not null,
+    console varchar(20),
+    genre varchar(20),
+    price numeric(10,2),
+    publisher_id varchar(20),
+    esrb char(1),
     
-    primary key(game_id)
+    primary key(game_id),
+    foreign key(publisher_id) references publisher(publisher_id)
  );
- 
-create table merchant(
-    merchant_id char(5) not null,
-    merchant_name varchar(30) not null,
-    sales int not null,
-    
-    primary key(merchant_id)
-);
+
+ create table publisher(
+    publisher_id char(5) not null,
+    publisher_name varchar(20) not null,
+
+    primary key(publisher_id)
+ );
 
 create table employee(
     employee_id char(5) not null,
-    employee_name varchar(30) not null,
-    role varchar(30) not null, 
-    salary decimal(8,2) not null,
+    employee_name varchar(20) not null,
+    role varchar(20) not null, 
+    salary numeric(10,2) not null,
     
     primary key(employee_id)
 );
 
-create table member(
-    member_id char(5) not null,
-    member_name varchar(30) not null,
-    mailing_address varchar(50) not null,
-    reward_member bool not null,
-    points int,
+create table customer(
+    customer_id char(5) not null,
+    member_name varchar(20) not null,
+    employee_id char(5) not null,
     
-    primary key(member_id)
+    primary key(customer_id),
+    foreign key(employee_id) references employee(employee_id)
 );
 
-create table purchase(
-    purchase_id char(5) not null,
-    member_id char(5) not null,
-    game_id char(5) not null,
-    price decimal(8,2) not null,
-    purchase_status varchar(10) not null,
+create table purchase( /*since order is keyword*/
+    order_id char(5) not null,
+    order_price numeric(10,2) not null,
+    discount numeric(1,2),
+    status_code varchar(20), /*since status is keyword*/
+    employee_id char(5) not null,
+    customer_id char(5) not null,
     
-    primary key(purchase_id),
-    foreign key(member_id) references member(member_id),
-    foreign key(game_id) references game(game_id)
+    primary key(order_id),
+    foreign key(customer_id) references customer(customer_id),
+    foreign key(employee_id) references employee(employee_id)
 );
