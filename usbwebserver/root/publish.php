@@ -32,11 +32,7 @@
 		<form action="pubsearch.php">
 			<p>
 			<label for="publisher_id"> Publisher ID </label>
-			<input type= "text" name="pub_id">
-			</p>
-			<p>
-			<label for="publisher_name"> Publisher Name </label>
-			<input type="text" name="pub_name">
+			<input type= "text" name="search_key">
 			</p>
 			<p>&nbsp;</p>
 			<p>
