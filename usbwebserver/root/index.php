@@ -18,7 +18,8 @@
 		
 		<h3> Table of Content </h3>
 		<ul>
-			<li> <a href="publish.php"> Publisher </a> </li>
+			<li> <a href="../publisher/publish.php"> Publishers </a> </li>
+			<li> <a href="../game/game.php"> Games </a> </li>
 		</ul>
 	</body>
 </html>
