@@ -373,3 +373,37 @@
 2022-04-25T19:48:41.561707Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1329217ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
 2022-04-25T20:40:01.925890Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
 2022-04-25T20:40:01.926381Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`publisher` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-25T21:39:24.157907Z 356 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-25T21:39:24.158922Z 356 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-25T21:39:24.249449Z 356 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-25T21:39:24.249859Z 356 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`game` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-25T21:39:24.251218Z 356 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-25T21:39:24.251661Z 356 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`game` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-25T21:58:34.570806Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-25T21:58:34.571146Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`game` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-25T22:12:06.717389Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-04-25T22:12:06.717453Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-04-25T22:12:06.717881Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-04-25T22:12:06.717891Z 0 [Note] D:\Development\VideoGameStore\usbwebserver/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.36) starting as process 5980 ...
+2022-04-25T22:12:06.718407Z 0 [ERROR] Error message file 'D:\Development\VideoGameStore\usbwebserver\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1123 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-04-25T22:12:06.735662Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-25T22:12:06.736071Z 0 [Note] InnoDB: Uses event mutexes
+2022-04-25T22:12:06.736439Z 0 [Note] InnoDB: Memory barrier is not used
+2022-04-25T22:12:06.736778Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-25T22:12:06.737283Z 0 [Note] InnoDB: Number of pools: 1
+2022-04-25T22:12:06.737563Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-04-25T22:12:06.740018Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-04-25T22:12:06.747379Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-25T22:12:06.767892Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2022-04-25T22:12:06.768462Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2022-04-25T22:12:06.769031Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2022-04-25T22:12:06.984568Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2022-04-25T22:12:06.984935Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2022-04-25T22:12:06.985324Z 0 [ERROR] Failed to initialize builtin plugins.
+2022-04-25T22:12:06.985636Z 0 [ERROR] Aborting
+
+2022-04-25T22:12:06.985797Z 0 [Note] Binlog end
+2022-04-25T22:12:06.986025Z 0 [Note] Shutting down plugin 'CSV'
+2022-04-25T22:12:06.986446Z 0 [Note] 
