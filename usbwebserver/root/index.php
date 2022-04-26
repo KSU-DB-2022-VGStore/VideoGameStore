@@ -6,23 +6,20 @@
 		<link rel="stylesheet" type="text/css" href="style.css" />
 	</head>
 
-	<body>
+	<body style="background-image: url('../images/background.jpg');">
 		<h3>Korby Store (<a href="https://github.com/KSU-DB-2022-VGStore/VideoGameStore">GitHub</a>)</h3>
-		
 		<?php
 		//include connection file
-		include "conneciton.php";
+		include "conneciton. php";
     	echo "Connected Successfully...";
 		?>
 		<br>
-		
-		<h3> Table of Content </h3>
+		<br>
+		<h3> Welcome User, What Would You Like to Do Today? </h3>
 		<ul>
-			<li> <a href="../publisher/publish.php"> Publishers </a> </li>
-			<li> <a href="../game/game.php"> Games </a> </li>
-			<li> <a href="../employee/employ.php"> Employees </a> </li>
-			<li> <a href="../customer/customer.php"> Customers </a> </li>
-			<li> <a href="../order/order.php"> Orders </a> </li>
+			<li> <a href="insert.php"> Insert New Data </a> </li>
+			<li> <a href="join.php"> View Relations </a> </li>
+			<li> <a href="info.php"> Update Information </a> </li>
 		</ul>
 	</body>
 </html>
