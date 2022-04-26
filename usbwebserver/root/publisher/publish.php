@@ -30,22 +30,22 @@
 		<fieldset>
 		<legend>Search Data</legend>
 		<form action="pubsearch.php">
-			<p>
-			Publisher ID
-			<input type= "text" name="search_key">
-			</p>
-			<p>
-			<input type="submit" value="Submit">
-			</p>
-		</form>
-		<form action="pubnsearch.php">
-			<p>
-			Publisher Name
-			<input type= "text" name="search_key">
-			</p>
-			<p>
-			<input type="submit" value="Submit">
-			</p>
+		<div class="search-box">
+			<div>
+				<label class="search-label">Enter Keyword:</label>
+				<input type= "text" name="keyword"/>
+			</div>
+			<br>
+			<label class="search-label">Search Keyword in:</label>
+			<div>
+				<select name="search_in" id="search_in">
+					<option value="publisher_id">Publisher ID</option>
+					<option value="publisher_name">Publisher Name</option>
+				</select>
+			</div>		
+			<input type="submit" value="Search">
+		</div>
+	</div>
 		</form>
 		</fieldset>
 		<br>

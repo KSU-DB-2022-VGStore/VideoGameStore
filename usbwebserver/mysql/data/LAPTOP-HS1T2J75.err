@@ -407,3 +407,4 @@
 2022-04-25T22:12:06.985797Z 0 [Note] Binlog end
 2022-04-25T22:12:06.986025Z 0 [Note] Shutting down plugin 'CSV'
 2022-04-25T22:12:06.986446Z 0 [Note] 
+2022-04-25T22:55:31.673072Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2588339ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
