@@ -42,40 +42,25 @@
 		<fieldset>
 		<legend>Search Data</legend>
 		<form action="empsearch.php">
-			<p>
-			Employee ID
-			<input type= "text" name="search_key">
-			</p>
-			<p>
-			<input type="submit" value="Submit">
-			</p>
-		</form>
-		<form action="empnsearch.php">
-			<p>
-			Name
-			<input type= "text" name="search_key">
-			</p>
-			<p>
-			<input type="submit" value="Submit">
-			</p>
-		</form>
-        <form action="rolesearch.php">
-			<p>
-			Role
-			<input type= "text" name="search_key">
-			</p>
-			<p>
-			<input type="submit" value="Submit">
-			</p>
-		</form>
-        <form action="salarysearch.php">
-			<p>
-			Salary
-			<input type= "text" name="search_key">
-			</p>
-			<p>
-			<input type="submit" value="Submit">
-			</p>
+		<div class="search-box">
+			<div>
+				<label class="search-label">Enter Keyword:</label>
+				<input type= "text" name="keyword"/>
+			</div>
+			<br>
+			<label class="search-label">Search Keyword in:</label>
+			<div>
+				<select name="search_in" id="search_in">
+					<option value="employee_id">Employee ID</option>
+					<option value="first_name">First Name</option>
+					<option value="last_name">Last Name</option>
+					<option value="role">Role</option>
+				</select>
+			</div>
+			<br>
+			<input type="submit" value="Search">
+		</div>
+		</div>
 		</form>
 		</fieldset>
 		<br>
