@@ -1,10 +1,12 @@
 <?php
-    include "../connection.php";
-    $key = $_GET["search_key"];
+include "../connection.php";
 
-    echo "<h3> Publishers with ID containing $key ... </h3> <p> &nbsp; </p>";
 
-    $sql = "SELECT publisher_id, publisher_name FROM publisher WHERE publisher_id LIKE '%" . $key . "%'";
+$keyword = $_GET['keyword'];
+$search_in = $_GET['search_in'];
+
+if(isset($search_in)){
+	$sql = "SELECT * FROM publisher WHERE $search_in LIKE '%" . $keyword . "%'";
     $result = $conn->query($sql);
 
     echo "<table border=1>
@@ -22,4 +24,5 @@
 			}
 		}
 		echo "</table>";
+}
 ?>

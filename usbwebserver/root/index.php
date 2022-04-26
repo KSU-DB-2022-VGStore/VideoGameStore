@@ -20,6 +20,9 @@
 		<ul>
 			<li> <a href="../publisher/publish.php"> Publishers </a> </li>
 			<li> <a href="../game/game.php"> Games </a> </li>
+			<li> <a href="../employee/employ.php"> Employees </a> </li>
+			<li> <a href="../customer/customer.php"> Customers </a> </li>
+			<li> <a href="../order/order.php"> Orders </a> </li>
 		</ul>
 	</body>
 </html>
