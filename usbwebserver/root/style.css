@@ -1,0 +1,43 @@
+body {
+    /*background-image: url('../images/background.jpg');*/
+    background-image: url('https://goombastomp.com/wp-content/uploads/2018/03/Kirby-retrospective-anniversary-article.jpg');
+    text-align: center;
+}
+
+h3 {
+    font-family: Verdana;
+    font-size: 25px;
+    /*margin-left: 2%;*/
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    /*margin-left: 2.25%;*/
+    /*border: 2px black;*/
+    width: 20%;
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+}
+
+li:nth-child(2n - 1) {
+    background-color: #fb6b90;
+}
+li:nth-child(2n) {
+    background-color: #fb4570;
+}
+
+li a:hover {
+    color: white;
+    font-size: 1.5em;
+}
+.title {
+    margin-left: 0%;
+}
