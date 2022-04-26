@@ -51,15 +51,16 @@
 			<label class="search-label">Search Keyword in:</label>
 			<div>
 				<select name="search_in" id="search_in">
-					<option value="publisher_id">Employee ID</option>
-					<option value="publisher_name">Publisher First Name</optio>
-					<option value="publisher_id">Employee Last Name</option>
-					<option value="publisher_id">Employee Role</option>
+					<option value="employee_id">Employee ID</option>
+					<option value="first_name">First Name</option>
+					<option value="last_name">Last Name</option>
+					<option value="role">Role</option>
 				</select>
-			</div>		
+			</div>
+			<br>
 			<input type="submit" value="Search">
 		</div>
-	</div>
+		</div>
 		</form>
 		</fieldset>
 		<br>

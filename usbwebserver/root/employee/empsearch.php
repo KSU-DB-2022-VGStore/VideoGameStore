@@ -1,15 +1,15 @@
 <?php
-include "../connection.php";
+    include "../connection.php";
 
 
-$keyword = $_GET['keyword'];
-$search_in = $_GET['search_in'];
-
-if(isset($search_in)){
-    $sql = "SELECT * FROM publisher WHERE $search_in LIKE '%" . $keyword . "%'";
-    $result = $conn->query($sql);
-
-    echo "<table border=1>
+	$keyword = $_GET['keyword'];
+	$search_in = $_GET['search_in'];
+	
+	if(isset($search_in)){
+		$sql = "SELECT * FROM employee WHERE $search_in LIKE '%" . $keyword . "%'";
+		$result = $conn->query($sql);
+	
+		echo "<table border=1>
 		<tr>
 		<th> Employee ID </th>
 		<th> First Name </th>
@@ -30,5 +30,6 @@ if(isset($search_in)){
 			}
 		}
 		echo "</table>";
-}
+	}
 ?>
+
