@@ -34,22 +34,24 @@
 		<fieldset>
 		<legend>Search Data</legend>
 		<form action="cussearch.php">
-			<p>
-			Customer ID
-			<input type= "text" name="search_key">
-			</p>
-			<p>
-			<input type="submit" value="Submit">
-			</p>
-		</form>
-		<form action="cusnsearch.php">
-			<p>
-			Name
-			<input type= "text" name="search_key">
-			</p>
-			<p>
-			<input type="submit" value="Submit">
-			</p>
+		<div class="search-box">
+			<div>
+				<label class="search-label">Enter Keyword:</label>
+				<input type= "text" name="keyword"/>
+			</div>
+			<br>
+			<label class="search-label">Search Keyword in:</label>
+			<div>
+				<select name="search_in" id="search_in">
+					<option value="customer_id">Publisher ID</option>
+					<option value="first_name">First Name</option>
+					<option value="last_name">Last Name</option>
+				</select>
+			</div>
+			<br>
+			<input type="submit" value="Search">
+		</div>
+		</div>
 		</form>
 		</fieldset>
 		<br>
