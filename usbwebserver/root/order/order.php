@@ -53,68 +53,28 @@
 
 		<fieldset>
 		<legend>Search Data</legend>
-		<form action="oidsearch.php">
-			<p>
-			Order ID
-			<input type= "text" name="search_key">
-			</p>
-			<p>
-			<input type="submit" value="Submit">
-			</p>
-		</form>
-		<form action="odatesearch.php">
-			<p>
-			Date
-			<input type= "text" name="search_key">
-			</p>
-			<p>
-			<input type="submit" value="Submit">
-			</p>
-		</form>
-        <form action="ostatsearch.php">
-			<p>
-			Status
-			<input type= "text" name="search_key">
-			</p>
-			<p>
-			<input type="submit" value="Submit">
-			</p>
-		</form>
-        <form action="discount.php">
-			<p>
-			Discount
-			<input type= "text" name="search_key">
-			</p>
-			<p>
-			<input type="submit" value="Submit">
-			</p>
-		</form>
-        <form action="empsearch.php">
-			<p>
-			Employee ID
-			<input type= "text" name="search_key">
-			</p>
-			<p>
-			<input type="submit" value="Submit">
-			</p>
-		</form>
-        <form action="cussearch.php">
-			<p>
-			Customer ID
-			<input type= "text" name="search_key">
-			</p>
-			<p>
-			<input type="submit" value="Submit">
-			</p>
-		</form>
-        <form action="gamesearch.php">
-			<p>
-			Game ID
-			<input type= "text" name="search_key">
-			</p>
-			<p>
-			<input type="submit" value="Submit">
-			</p>
+		<form action="ordersearch.php">
+		<div class="search-box">
+			<div>
+				<label class="search-label">Enter Keyword:</label>
+				<input type= "text" name="keyword"/>
+			</div>
+			<br>
+			<label class="search-label">Search Keyword in:</label>
+			<div>
+				<select name="search_in" id="search_in">
+					<option value="order_id">Order ID</option>
+					<option value="order_date">Date</option>
+					<option value="status">Status</option>
+					<option value="employee_id">Employee ID</option>
+					<option value="customer_id">Customer ID</option>
+					<option value="game_id">Game ID</option>
+				</select>
+			</div>
+			<br>
+			<input type="submit" value="Search">
+		</div>
+		</div>
 		</form>
 		</fieldset>
 		<br>

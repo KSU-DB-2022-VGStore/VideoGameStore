@@ -42,10 +42,11 @@
 					<option value="publisher_id">Publisher ID</option>
 					<option value="publisher_name">Publisher Name</option>
 				</select>
-			</div>		
+			</div>
+			<br>
 			<input type="submit" value="Search">
 		</div>
-	</div>
+		</div>
 		</form>
 		</fieldset>
 		<br>

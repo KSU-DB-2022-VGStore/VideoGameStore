@@ -408,3 +408,542 @@
 2022-04-25T22:12:06.986025Z 0 [Note] Shutting down plugin 'CSV'
 2022-04-25T22:12:06.986446Z 0 [Note] 
 2022-04-25T22:55:31.673072Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2588339ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-25T23:56:40.069300Z 515 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-25T23:56:40.070172Z 515 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`employee` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-25T23:57:04.465525Z 533 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-25T23:57:04.467026Z 533 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-25T23:57:04.546238Z 533 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-25T23:57:04.547212Z 533 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`employee` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-25T23:57:04.550694Z 533 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-25T23:57:04.551523Z 533 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`employee` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T00:02:41.962162Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T00:02:41.962607Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`employee` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T00:09:30.711265Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T00:09:30.711607Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`employee` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T00:10:22.478204Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T00:10:22.478742Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`employee` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T00:11:39.159220Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T00:11:39.159554Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`employee` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T00:31:27.413176Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 344349ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-26T00:36:36.524941Z 607 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T00:36:36.526121Z 607 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`customer` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T00:36:57.154787Z 625 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T00:36:57.155805Z 625 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T00:36:57.224506Z 625 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T00:36:57.225546Z 625 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`customer` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T00:36:57.229318Z 625 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T00:36:57.230429Z 625 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`customer` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T01:00:55.102482Z 725 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:00:55.103427Z 725 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:00:55.104308Z 725 [Note] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`customer` index `employee_id` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T01:00:55.108127Z 725 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:00:55.109465Z 725 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`customer` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T01:01:46.411782Z 745 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:01:46.412701Z 745 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`customer` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T01:06:23.318014Z 847 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:06:23.319049Z 847 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:06:23.487213Z 847 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:06:23.497912Z 847 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`customer` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T01:06:23.501891Z 847 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:06:23.503197Z 847 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`customer` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T01:06:28.606069Z 855 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:06:28.607065Z 855 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:06:28.608500Z 855 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:06:28.661960Z 855 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:06:28.708842Z 855 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:06:28.744365Z 855 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:06:28.780138Z 855 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:06:28.815952Z 855 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:06:28.851835Z 855 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:06:28.887551Z 855 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:06:28.923333Z 855 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:06:28.970178Z 855 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:06:29.005827Z 855 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:06:29.112437Z 855 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:06:29.113614Z 855 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`customer` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T01:06:29.117184Z 855 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:06:29.118134Z 855 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`customer` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T01:08:44.194846Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:08:44.195247Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`customer` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T01:09:36.419495Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:09:36.420173Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`customer` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T01:17:28.677656Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:17:28.678696Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`customer` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T01:18:19.275047Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:18:19.276067Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`customer` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T01:26:20.445316Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:26:20.446049Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`customer` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T01:26:38.586993Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:26:38.587928Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`customer` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T01:34:17.798938Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:34:17.799275Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`customer` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T01:34:47.940551Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:34:47.941443Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`customer` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T01:40:04.861108Z 990 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:48:19.568076Z 1010 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:48:19.571630Z 1010 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:48:19.572596Z 1010 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T01:55:22.749748Z 1114 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:55:22.750856Z 1114 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:55:22.830031Z 1114 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:55:22.831143Z 1114 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`orders` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T01:55:22.834599Z 1114 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:55:22.835898Z 1114 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T01:55:31.975609Z 1122 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:55:31.976536Z 1122 [Note] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`orders` index `employee_id` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T01:55:31.978957Z 1122 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:55:31.979836Z 1122 [Note] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`orders` index `customer_id` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T01:55:31.983327Z 1122 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:55:31.984155Z 1122 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T01:56:46.617539Z 1146 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:56:46.618796Z 1146 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:56:46.619684Z 1146 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`#sql-371c_47a` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T01:56:46.653280Z 1146 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:56:46.654495Z 1146 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:56:46.700223Z 1146 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:56:46.701182Z 1146 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:56:46.703167Z 1146 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:56:46.784212Z 1146 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:56:46.785123Z 1146 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T01:56:57.435975Z 1170 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:56:57.437252Z 1170 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:56:57.438167Z 1170 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`#sql-371c_492` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T01:56:57.471803Z 1170 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:56:57.472914Z 1170 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:56:57.529769Z 1170 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:56:57.530708Z 1170 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:56:57.532688Z 1170 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:56:57.613529Z 1170 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:56:57.614447Z 1170 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T01:57:07.340974Z 1194 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T01:57:07.342121Z 1194 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:00:35.256629Z 1212 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:00:35.258070Z 1212 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:00:35.337306Z 1212 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:00:35.338391Z 1212 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`orders` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T02:00:35.342176Z 1212 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:00:35.343098Z 1212 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:00:55.873410Z 1230 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:00:55.874465Z 1230 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:01:04.926830Z 1242 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:01:04.928145Z 1242 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:01:05.019835Z 1242 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:01:05.020809Z 1242 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`orders` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T02:01:05.024318Z 1242 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:01:05.025214Z 1242 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:01:10.249904Z 1248 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:01:10.250928Z 1248 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:01:10.352303Z 1248 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:01:10.353296Z 1248 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`orders` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T02:01:10.357472Z 1248 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:01:10.358338Z 1248 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:01:23.122071Z 1254 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:01:23.123037Z 1254 [Note] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`orders` index `game_id` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T02:01:23.127462Z 1254 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:01:23.128538Z 1254 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:02:07.088495Z 1264 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:02:07.089417Z 1264 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:02:07.191445Z 1264 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:02:07.192524Z 1264 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`orders` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T02:02:07.196290Z 1264 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:02:07.197232Z 1264 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:02:14.139697Z 1268 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:02:14.140667Z 1268 [Note] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`orders` index `game_id_2` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T02:02:14.144882Z 1268 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:02:14.145880Z 1268 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:03:06.779213Z 1320 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:03:06.780170Z 1320 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:03:06.870557Z 1320 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:03:06.871886Z 1320 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`orders` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T02:03:06.875467Z 1320 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:03:06.876685Z 1320 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:03:42.027079Z 1328 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:03:42.029254Z 1328 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:03:42.030142Z 1328 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:04:11.057035Z 1336 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:11.057991Z 1336 [Note] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`orders` index `game_id_4` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T02:04:11.062075Z 1336 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:11.063094Z 1336 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:04:51.294837Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:51.403006Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:51.404005Z 1372 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`#sql-371c_55c` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:04:51.643421Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:51.644511Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:51.701484Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:51.702470Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:51.704279Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:51.706233Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:51.771478Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:51.806730Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:51.842333Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:51.878133Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:51.914133Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:51.949941Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:51.985569Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:52.021403Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:52.056965Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:52.092875Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:52.128790Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:52.164110Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:52.199955Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:52.235561Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:52.271330Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:52.331857Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:52.444708Z 1372 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:52.445878Z 1372 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:04:52.963921Z 1374 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:04:52.965006Z 1374 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:05:35.157881Z 1402 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:05:35.160714Z 1402 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:05:35.161733Z 1402 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:05:40.470155Z 1410 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:05:40.473265Z 1410 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:05:40.474548Z 1410 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:05:43.895285Z 1418 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:05:43.931464Z 1418 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:05:43.977968Z 1418 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:05:44.036218Z 1418 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:05:44.083199Z 1418 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:05:44.118827Z 1418 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:05:44.215941Z 1418 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:05:44.216962Z 1418 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:07:23.420003Z 1434 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:07:23.525427Z 1434 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:07:23.526641Z 1434 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`#sql-371c_59a` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:07:23.582984Z 1434 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:07:23.583939Z 1434 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:07:23.618686Z 1434 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:07:23.619714Z 1434 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:07:23.621676Z 1434 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:07:23.623492Z 1434 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:07:23.699845Z 1434 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:07:23.735373Z 1434 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:07:23.771186Z 1434 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:07:23.831838Z 1434 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:07:23.892128Z 1434 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:07:23.927549Z 1434 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:07:23.963146Z 1434 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:07:24.010430Z 1434 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:07:24.045968Z 1434 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:07:24.092930Z 1434 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:07:24.226617Z 1434 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:07:24.227535Z 1434 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:13:51.083899Z 1444 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:13:51.189385Z 1444 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:13:51.190476Z 1444 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`#sql-371c_5a4` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:13:51.235655Z 1444 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:13:51.236617Z 1444 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:13:51.293777Z 1444 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:13:51.294710Z 1444 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:13:51.296567Z 1444 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:13:51.298897Z 1444 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:13:51.341007Z 1444 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:13:51.399341Z 1444 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:13:51.434911Z 1444 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:13:51.492960Z 1444 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:13:51.528465Z 1444 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:13:51.586580Z 1444 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:13:51.622225Z 1444 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:13:51.680412Z 1444 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:13:51.727377Z 1444 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:13:51.785266Z 1444 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:13:51.918485Z 1444 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:13:51.919394Z 1444 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:14:55.847073Z 1452 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:14:55.918971Z 1452 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:14:55.919930Z 1452 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`#sql-371c_5ac` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:14:55.954375Z 1452 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:14:55.955033Z 1452 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:14:56.001277Z 1452 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:14:56.002630Z 1452 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:14:56.005445Z 1452 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:14:56.007662Z 1452 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:14:56.071029Z 1452 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:14:56.106656Z 1452 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:14:56.153465Z 1452 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:14:56.189214Z 1452 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:14:56.235748Z 1452 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:14:56.296240Z 1452 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:14:56.331858Z 1452 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:14:56.378720Z 1452 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:14:56.414731Z 1452 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:14:56.461555Z 1452 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:14:56.561810Z 1452 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:14:56.562696Z 1452 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:15:36.006400Z 1474 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:36.103008Z 1474 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:36.104178Z 1474 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`#sql-371c_5c2` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:15:36.138227Z 1474 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:36.139656Z 1474 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:36.143965Z 1474 [ERROR] InnoDB: In ALTER TABLE `korby_store`.`orders` has or is referenced in foreign key constraints which are not compatible with the new table definition.
+2022-04-26T02:15:36.215738Z 1474 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:36.217697Z 1474 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:36.338049Z 1474 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:36.373582Z 1474 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:36.409353Z 1474 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:36.470112Z 1474 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:36.516894Z 1474 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:36.552718Z 1474 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:36.588346Z 1474 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:36.635405Z 1474 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:36.682238Z 1474 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:36.717552Z 1474 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:36.848962Z 1474 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:36.850138Z 1474 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:36.854933Z 1474 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:36.855351Z 1474 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:15:47.300906Z 1478 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:47.361394Z 1478 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:47.361833Z 1478 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`#sql-371c_5c6` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:15:47.408126Z 1478 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:47.409381Z 1478 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:47.411899Z 1478 [ERROR] InnoDB: In ALTER TABLE `korby_store`.`orders` has or is referenced in foreign key constraints which are not compatible with the new table definition.
+2022-04-26T02:15:47.499975Z 1478 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:47.500866Z 1478 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:47.582571Z 1478 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:47.629679Z 1478 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:47.665111Z 1478 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:47.700832Z 1478 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:47.736834Z 1478 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:47.772496Z 1478 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:47.819121Z 1478 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:47.854865Z 1478 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:47.890738Z 1478 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:47.926088Z 1478 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:48.046643Z 1478 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:48.048321Z 1478 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:48.164919Z 1480 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:48.165339Z 1480 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:15:49.826295Z 1480 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:49.875719Z 1480 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:49.876184Z 1480 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`#sql-371c_5c8` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:15:50.069816Z 1480 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:50.070757Z 1480 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:50.072956Z 1480 [ERROR] InnoDB: In ALTER TABLE `korby_store`.`orders` has or is referenced in foreign key constraints which are not compatible with the new table definition.
+2022-04-26T02:15:50.139294Z 1480 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:50.140590Z 1480 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:50.186272Z 1480 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:50.222049Z 1480 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:50.258044Z 1480 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:50.293304Z 1480 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:50.329630Z 1480 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:50.364811Z 1480 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:50.389351Z 1480 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:50.425367Z 1480 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:50.461393Z 1480 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:50.496765Z 1480 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:50.652827Z 1480 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:50.653426Z 1480 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:53.770963Z 1482 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:15:53.771814Z 1482 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:16:23.797203Z 1508 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:16:23.893708Z 1508 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:16:23.894410Z 1508 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`#sql-371c_5e4` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:16:23.953703Z 1508 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:16:23.954222Z 1508 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:16:23.963684Z 1508 [ERROR] InnoDB: In ALTER TABLE `korby_store`.`orders` has or is referenced in foreign key constraints which are not compatible with the new table definition.
+2022-04-26T02:16:24.078708Z 1508 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:16:24.080620Z 1508 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:16:24.114473Z 1508 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:16:24.150507Z 1508 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:16:24.186000Z 1508 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:16:24.221449Z 1508 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:16:24.257505Z 1508 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:16:24.293373Z 1508 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:16:24.329259Z 1508 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:16:24.365093Z 1508 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:16:24.400631Z 1508 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:16:24.447261Z 1508 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:16:24.589611Z 1508 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:16:24.590580Z 1508 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:16:24.596890Z 1508 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:16:24.597594Z 1508 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:17:20.203943Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:20.264726Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:20.266015Z 1534 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`#sql-371c_5fe` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:17:20.300023Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:20.301302Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:20.304415Z 1534 [ERROR] InnoDB: In ALTER TABLE `korby_store`.`orders` has or is referenced in foreign key constraints which are not compatible with the new table definition.
+2022-04-26T02:17:20.402653Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:20.404495Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:20.439047Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:20.474722Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:20.534897Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:20.581549Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:20.618198Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:20.653541Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:20.689287Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:20.724843Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:20.760529Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:20.807043Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:20.842667Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:20.878472Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:20.914756Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:20.961478Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:20.997280Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:21.044089Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:21.197517Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:21.198447Z 1534 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:32.892374Z 1536 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:32.893516Z 1536 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:17:36.455563Z 1540 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:36.516075Z 1540 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:36.516670Z 1540 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`#sql-371c_604` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:17:36.551548Z 1540 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:36.552457Z 1540 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:36.566137Z 1540 [ERROR] InnoDB: In ALTER TABLE `korby_store`.`orders` has or is referenced in foreign key constraints which are not compatible with the new table definition.
+2022-04-26T02:17:36.654750Z 1540 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:36.655431Z 1540 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:36.816731Z 1540 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:36.852289Z 1540 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:36.888083Z 1540 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:36.923493Z 1540 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:36.970481Z 1540 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:37.017226Z 1540 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:37.053089Z 1540 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:37.089083Z 1540 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:37.124634Z 1540 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:37.160454Z 1540 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:37.324533Z 1540 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:37.325392Z 1540 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:37.331873Z 1540 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:37.333211Z 1540 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:17:51.450776Z 1548 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:51.536350Z 1548 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:51.537728Z 1548 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`#sql-371c_60c` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:17:51.571492Z 1548 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:51.572413Z 1548 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:51.576725Z 1548 [ERROR] InnoDB: In ALTER TABLE `korby_store`.`orders` has or is referenced in foreign key constraints which are not compatible with the new table definition.
+2022-04-26T02:17:51.652532Z 1548 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:51.654126Z 1548 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:51.688304Z 1548 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:51.723617Z 1548 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:51.759260Z 1548 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:51.795149Z 1548 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:51.855495Z 1548 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:51.902198Z 1548 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:51.949293Z 1548 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:51.985173Z 1548 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:52.020827Z 1548 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:52.056860Z 1548 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:52.198769Z 1548 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:17:52.199665Z 1548 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:18:24.485718Z 1550 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:18:24.486918Z 1550 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:18:33.054021Z 1562 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:18:33.139046Z 1562 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:18:33.140177Z 1562 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`#sql-371c_61a` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:18:33.174735Z 1562 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:18:33.176120Z 1562 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:18:33.179729Z 1562 [ERROR] InnoDB: In ALTER TABLE `korby_store`.`orders` has or is referenced in foreign key constraints which are not compatible with the new table definition.
+2022-04-26T02:18:33.255473Z 1562 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:18:33.257265Z 1562 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:18:33.302582Z 1562 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:18:33.349303Z 1562 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:18:33.385368Z 1562 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:18:33.420838Z 1562 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:18:33.467486Z 1562 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:18:33.503252Z 1562 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:18:33.538946Z 1562 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:18:33.574682Z 1562 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:18:33.621981Z 1562 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:18:33.657446Z 1562 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:18:33.777328Z 1562 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:18:33.778076Z 1562 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:18:41.089781Z 1564 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:18:41.090904Z 1564 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:19:02.529179Z 1566 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:02.614687Z 1566 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:02.615992Z 1566 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`#sql-371c_61e` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:19:02.649899Z 1566 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:02.650471Z 1566 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:02.652432Z 1566 [ERROR] InnoDB: In ALTER TABLE `korby_store`.`orders` has or is referenced in foreign key constraints which are not compatible with the new table definition.
+2022-04-26T02:19:02.775022Z 1566 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:02.777012Z 1566 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:02.822069Z 1566 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:02.857894Z 1566 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:02.893715Z 1566 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:02.929209Z 1566 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:02.965177Z 1566 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:03.001064Z 1566 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:03.036453Z 1566 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:03.072441Z 1566 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:03.108160Z 1566 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:03.143973Z 1566 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:03.275124Z 1566 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:03.276248Z 1566 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:37.502908Z 1568 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:37.504158Z 1568 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:19:39.919206Z 1568 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:40.060715Z 1568 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:40.061084Z 1568 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`#sql-371c_620` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:19:40.243425Z 1568 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:40.243707Z 1568 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:40.247571Z 1568 [ERROR] InnoDB: In ALTER TABLE `korby_store`.`orders` has or is referenced in foreign key constraints which are not compatible with the new table definition.
+2022-04-26T02:19:40.279702Z 1568 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:40.281620Z 1568 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:40.315440Z 1568 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:40.351265Z 1568 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:40.397818Z 1568 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:40.433507Z 1568 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:40.480738Z 1568 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:40.516325Z 1568 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:40.574597Z 1568 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:40.610009Z 1568 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:40.667901Z 1568 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:40.703796Z 1568 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:40.879341Z 1568 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:40.880120Z 1568 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:51.264367Z 1570 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:51.265289Z 1570 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:19:54.938262Z 1572 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:54.963271Z 1572 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:54.988138Z 1572 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:55.012546Z 1572 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:55.048410Z 1572 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:55.073167Z 1572 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:55.171107Z 1572 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:55.172344Z 1572 [Note] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`orders` index `game_id` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T02:19:55.197457Z 1572 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:19:55.198519Z 1572 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:20:12.665158Z 1582 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:20:12.665958Z 1582 [Note] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`orders` index `customer_id` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T02:20:12.670643Z 1582 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:20:12.671914Z 1582 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:20:52.818062Z 1590 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:20:52.819446Z 1590 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:20:52.821854Z 1590 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:20:52.852269Z 1590 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:20:52.876770Z 1590 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:20:52.901274Z 1590 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:20:52.925960Z 1590 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:20:52.999275Z 1590 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:20:53.000598Z 1590 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`orders` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T02:20:53.005228Z 1590 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:20:53.006654Z 1590 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:24:07.943875Z 1611 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:24:07.945411Z 1611 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:24:07.946313Z 1611 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`#sql-371c_64b` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:24:08.037674Z 1611 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:24:08.038860Z 1611 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:24:08.084449Z 1611 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:24:08.085304Z 1611 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:24:08.087448Z 1611 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:24:08.169839Z 1611 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:24:08.170875Z 1611 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:39:30.644591Z 1680 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:39:30.645946Z 1680 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:39:30.647036Z 1680 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`#sql-371c_690` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:39:30.727296Z 1680 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:39:30.728231Z 1680 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:39:30.796250Z 1680 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:39:30.796994Z 1680 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:39:30.799243Z 1680 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:39:30.892442Z 1680 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:39:30.892876Z 1680 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:39:40.427073Z 1704 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:39:40.427996Z 1704 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T02:39:47.719408Z 1728 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T02:39:47.720617Z 1728 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-04-26T03:03:41.005693Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 167930ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-26T03:11:43.009968Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 472914ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)

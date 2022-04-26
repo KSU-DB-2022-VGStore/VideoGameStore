@@ -51,52 +51,30 @@
 		</fieldset>
 		<br>
 
+		
 		<fieldset>
 		<legend>Search Data</legend>
 		<form action="gamesearch.php">
-			<p>
-			Game ID
-			<input type= "text" name="search_key">
-			</p>
-			<p>
-			<input type="submit" value="Submit">
-			</p>
-		</form>
-		<form action="gamensearch.php">
-			<p>
-			Name
-			<input type= "text" name="search_key">
-			</p>
-			<p>
-			<input type="submit" value="Submit">
-			</p>
-		</form>
-        <form action="consolesearch.php">
-			<p>
-			Console
-			<input type= "text" name="search_key">
-			</p>
-			<p>
-			<input type="submit" value="Submit">
-			</p>
-		</form>
-        <form action="genresearch.php">
-			<p>
-			Genre
-			<input type= "text" name="search_key">
-			</p>
-			<p>
-			<input type="submit" value="Submit">
-			</p>
-		</form>
-        <form action="pubsearch.php">
-			<p>
-			Publisher ID
-			<input type= "text" name="search_key">
-			</p>
-			<p>
-			<input type="submit" value="Submit">
-			</p>
+		<div class="search-box">
+			<div>
+				<label class="search-label">Enter Keyword:</label>
+				<input type= "text" name="keyword"/>
+			</div>
+			<br>
+			<label class="search-label">Search Keyword in:</label>
+			<div>
+				<select name="search_in" id="search_in">
+					<option value="game_id">Game ID</option>
+					<option value="name">Name</option>
+					<option value="console">Console</option>
+					<option value="publisher_id">Publisher ID</option>
+					<option value="esrb">ESRB Rating</option>
+				</select>
+			</div>
+			<br>
+			<input type="submit" value="Search">
+		</div>
+		</div>
 		</form>
 		</fieldset>
 		<br>
