@@ -46,7 +46,7 @@
 			<br>
 			<input type="submit" value="Search">
 		</div>
-		</div>
+	</div>
 		</form>
 		</fieldset>
 		<br>
