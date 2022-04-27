@@ -7,18 +7,17 @@
 	</head>
 
 	<body>
-		<h3>Korby Store (<a href="https://github.com/KSU-DB-2022-VGStore/VideoGameStore">GitHub</a>)</h3>
 		<?php
 		//include connection file
 		include "conneciton. php";
 		?>
-		<h3> Choose From The Following Tables. </h3>
-		<ul>
-			<li> <a href="../publisher/publish.php"> Publishers </a> </li>
-			<li> <a href="../game/game.php"> Games </a> </li>
-			<li> <a href="../employee/employ.php"> Employees </a> </li>
-			<li> <a href="../customer/customer.php"> Customers </a> </li>
-			<li> <a href="../order/order.php"> Orders </a> </li>
-		</ul>
+		<div class="centered">
+		<h1> Choose a Table to Modify. </h1>
+			<a class = "btn-bgstroke" href="../publisher/publish.php"> Publishers </a> <br>
+			<a class = "btn-bgstroke" href="../game/game.php"> Games </a> <br>
+			<a class = "btn-bgstroke" href="../employee/employ.php"> Employees </a> <br>
+			<a class = "btn-bgstroke" href="../customer/customer.php"> Customers </a> <br>
+			<a class = "btn-bgstroke" href="../order/order.php"> Orders </a>
+		</div>
 	</body>
 </html>

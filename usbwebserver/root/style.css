@@ -1,43 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+
+h1,
+h2,
+h3,
+p,
+a{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato';
+}
+
 body {
-    /*background-image: url('../images/background.jpg');*/
-    background-image: url('https://goombastomp.com/wp-content/uploads/2018/03/Kirby-retrospective-anniversary-article.jpg');
-    text-align: center;
+    background-image: url('../images/background.jpg');
+}
+
+h1 {
+  font-size: 2.8em;
+  padding: 10px 0;
+  font-weight: 800;  
+}
+
+h2 {
+    font-size: 1.6em;
+    padding: 10px 0;
+    font-weight: 800; 
 }
 
 h3 {
-    font-family: Verdana;
-    font-size: 25px;
-    /*margin-left: 2%;*/
-    text-align: center;
+    font-family: impact;
+    font-size: 32em;
+    padding: 10px 0;
+    font-weight: 900;
+    color: #A92C3C;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+p {
+  font-size: 1.1em;
+  letter-spacing: 5px;
+  color:white;
 }
 
-ul {
-    /*margin-left: 2.25%;*/
-    /*border: 2px black;*/
-    width: 20%;
-    list-style: none;
-    display: inline-block;
+label {
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 600;
 }
 
-li a{
+.header {
+  width: 100%;
+  padding:60px 0;
+  text-align: center;
+  color: white;
 }
 
-li:nth-child(2n - 1) {
-    background-color: #fb6b90;
-}
-li:nth-child(2n) {
-    background-color: #fb4570;
+.btn-bgstroke {
+  font-size: 20px;
+  display: inline-block;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 300;
+  margin-top: 30px;
+  text-decoration: none; 
 }
 
-li a:hover {
+.btn-bgstroke:hover {
+  background-color: white;
+  color: #33cccc;
+}
+
+.input[type=button], input[type=submit],
+input[type=reset] {
+    background-color: #A92C3C;
+    border: none;
     color: white;
-    font-size: 1.5em;
-}
-.title {
-    margin-left: 0%;
-}
+    padding: 15px 32px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}  
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #111;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  .overlay {
+    position: absolute; /* Sit on top of the page content */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    font-size: 12em;
+    font-style:italic;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color:white;
+  }
+
+  .fields {
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 300;
+    margin-top: 30px;
+    text-decoration: none; 
+  }

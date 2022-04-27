@@ -12,12 +12,10 @@
 		include "conneciton. php";
 
 		?>
-		
-		<h3>Korby Store (<a href="https://github.com/KSU-DB-2022-VGStore/VideoGameStore">GitHub</a>)</h3>
-		<h3>View a Relation... </h3>
+		<div class="centered">
+		<h1>View a Relation. </h1>
 
-		<fieldset>
-		<legend>Fetch Data from Two Tables: </legend>
+		<div class= "fields">
 		<form action = "innerjoin.php">
 		<div class="search-box">
 			<label class="search-label">Choose Table 1:</label>
@@ -25,16 +23,16 @@
 				<select name="tab1" id="tab1">
 					<option value="customer">Customer</option>
 					<option value="game">Game</option>
+					<option value="employee">Employee</option>
 				</select>
 			</div>
-			<br>
+			
 		</div>
 
 		<div class="search-box">
 			<label class="search-label">Choose Table 2:</label>
 			<div>
 				<select name="tab2" id="tab2">
-					<option value="employee">Employee</option>
 					<option value="orders">Orders</option>
 					<option value="publisher">Publisher</option>
 				</select>
@@ -47,9 +45,10 @@
 			<input type=text name=keyword>
 			<br>
 		</div>
+		<p>&nbsp;</p>
 		<input type="submit" value="Join">
 		</form>
-		</fieldset>
-	<br>
+		</div>
+		</div>
 	</body>
 </html>
