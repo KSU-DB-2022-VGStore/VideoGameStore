@@ -947,3 +947,27 @@
 2022-04-26T02:39:47.720617Z 1728 [ERROR] InnoDB: Fetch of persistent statistics requested for table `korby_store`.`orders` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
 2022-04-26T03:03:41.005693Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 167930ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
 2022-04-26T03:11:43.009968Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 472914ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-26T09:39:14.886880Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 14395851ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-26T18:10:47.331152Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 30686340ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-26T19:15:10.573529Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2533452ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-26T20:45:11.419282Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T20:45:11.419738Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`orders` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-26T22:19:58.933282Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-26T22:19:58.933775Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`customer` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-27T01:33:23.703460Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3681381ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-27T02:15:43.451763Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-27T02:15:43.452409Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`publisher` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-27T02:15:53.467661Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-27T02:15:53.468612Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`publisher` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-27T02:16:26.617237Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-27T02:16:26.617570Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`game` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-27T02:16:36.622215Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-27T02:16:36.623215Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`game` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-27T02:17:02.183522Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-27T02:17:02.184279Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`employee` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-27T02:17:12.191356Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-27T02:17:12.191722Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`employee` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-27T02:18:01.418076Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-27T02:18:01.418346Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`customer` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-04-27T02:19:05.982826Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-04-27T02:19:05.983272Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `korby_store`.`orders` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
